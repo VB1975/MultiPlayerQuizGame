@@ -99,6 +99,7 @@
     <Compile Include="App Modules\ModGlobal.vb" />
     <Compile Include="Question Modules\Film &amp; Television\ModBuffyTheVampireSlayerQuestions.vb" />
     <Compile Include="Question Modules\Film &amp; Television\ModStarTrekQuestions.vb" />
+    <Compile Include="Question Modules\IT\ModCPlusPlusQuestions.vb" />
     <Compile Include="Question Modules\IT\ModCSharpQuestions.vb" />
     <Compile Include="Question Modules\IT\ModMSAccessQuestions.vb" />
     <Compile Include="Question Modules\IT\ModMSExcelQuestions.vb" />
