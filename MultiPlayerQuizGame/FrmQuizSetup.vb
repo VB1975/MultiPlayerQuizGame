@@ -10,7 +10,7 @@ Public Class FrmQuizSetup
         Select Case CboSubCategories.SelectedItem
             Case "IT"
                 'CboCategories.Items.Add("ASP.NET")
-                'CboCategories.Items.Add("C#")
+                CboCategories.Items.Add("C#")
                 'CboCategories.Items.Add("C++")
                 'CboCategories.Items.Add("JavaScript")
                 CboCategories.Items.Add("Microsoft Access")
@@ -36,6 +36,10 @@ Public Class FrmQuizSetup
         TxtPlayerName.Focus()
 
         Select Case Category
+            Case "C#" : CategoryImage = My.Resources.CSharp
+            Case "C++" : CategoryImage = My.Resources.CPlusPlus
+            Case "ASP.NET" : CategoryImage = My.Resources.ASPDotNET
+            Case "JavaScript" : CategoryImage = My.Resources.JavaScript
             Case "VB.NET" : CategoryImage = My.Resources.VBDotNet
             Case "Microsoft Access" : CategoryImage = My.Resources.MicrosoftAccess
             Case "Microsoft Excel" : CategoryImage = My.Resources.MicrosoftExcel
@@ -142,7 +146,7 @@ Public Class FrmQuizSetup
     Private Sub InitializeQuestions()
 
         MicrosoftAccessQuestions() : MicrosoftExcelQuestions() : MicrosoftWordQuestions() : MicrosoftPowerPointQuestions()
-        VBDotNetQuestions()
+        VBDotNetQuestions() : CSharpQuestions()
 
         BuffyTheVampireSlayerQuestions() : StarTrekQuestions()
 

@@ -99,6 +99,7 @@
     <Compile Include="App Modules\ModGlobal.vb" />
     <Compile Include="Question Modules\Film &amp; Television\ModBuffyTheVampireSlayerQuestions.vb" />
     <Compile Include="Question Modules\Film &amp; Television\ModStarTrekQuestions.vb" />
+    <Compile Include="Question Modules\IT\ModCSharpQuestions.vb" />
     <Compile Include="Question Modules\IT\ModMSAccessQuestions.vb" />
     <Compile Include="Question Modules\IT\ModMSExcelQuestions.vb" />
     <Compile Include="My Project\AssemblyInfo.vb" />
@@ -170,6 +171,10 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Quiz.ico" />
+    <None Include="Resources\ASPDotNET.png" />
+    <None Include="Resources\JavaScript.png" />
+    <None Include="Resources\CPlusPlus.png" />
+    <None Include="Resources\CSharp.png" />
     <None Include="Resources\StarTrek.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
