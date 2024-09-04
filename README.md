@@ -21,7 +21,8 @@ More quizes will be added soon.
 
 ---
 
-If you like my work please consider donating to my <a href="https://www.paypal.com/paypalme/KevinRobertson1975" target="_blank">Tip Jar</a>
+If you like my work please consider donating to my [Tip Jar](https://www.paypal.com/paypalme/KevinRobertson1975)
+
 Thanks
 
 ---
