@@ -3,6 +3,7 @@
 Test your knowledge with the following quizes:
 
 * **IT**
+  - `C#`
   - `Microsoft Access`
   - `Microsoft Excel`
   - `Microsoft PowerPoint`
