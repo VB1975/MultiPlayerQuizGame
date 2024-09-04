@@ -11,6 +11,7 @@ Test your knowledge with the following quizes:
 
 * **Film & Television**
   - Buffy The Vampire Slayer
+  - Star Trek
 
 Each quiz consists of 100 multiple choice questions.
 
