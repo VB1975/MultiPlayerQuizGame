@@ -4,6 +4,7 @@ Test your knowledge with the following quizes:
 
 * **IT**
   - `C#`
+  - `C++`
   - `Microsoft Access`
   - `Microsoft Excel`
   - `Microsoft PowerPoint`
@@ -17,3 +18,10 @@ Test your knowledge with the following quizes:
 Each quiz consists of 100 multiple choice questions.
 
 More quizes will be added soon.
+
+---
+
+If you like my work please consider donating to my [Tip Jar](paypal.me/KevinRobertson1975)
+Thanks
+
+---
