@@ -5,6 +5,7 @@ Test your knowledge with the following quizes:
 * **IT**
   - `C#`
   - `C++`
+  - `JavaScript`
   - `Microsoft Access`
   - `Microsoft Excel`
   - `Microsoft PowerPoint`
