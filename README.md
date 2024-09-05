@@ -14,6 +14,7 @@ Test your knowledge with the following quizes:
   - `VB.NET`
 
 * **Film & Television**
+  - `Angel`
   - `Buffy The Vampire Slayer`
   - `Star Trek`
 
