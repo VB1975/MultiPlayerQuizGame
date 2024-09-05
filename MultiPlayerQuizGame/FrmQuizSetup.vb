@@ -12,7 +12,7 @@ Public Class FrmQuizSetup
                 'CboCategories.Items.Add("ASP.NET")
                 CboCategories.Items.Add("C#")
                 CboCategories.Items.Add("C++")
-                'CboCategories.Items.Add("JavaScript")
+                CboCategories.Items.Add("JavaScript")
                 CboCategories.Items.Add("Microsoft Access")
                 CboCategories.Items.Add("Microsoft Excel")
                 CboCategories.Items.Add("Microsoft PowerPoint")
@@ -146,7 +146,7 @@ Public Class FrmQuizSetup
     Private Sub InitializeQuestions()
 
         MicrosoftAccessQuestions() : MicrosoftExcelQuestions() : MicrosoftWordQuestions() : MicrosoftPowerPointQuestions()
-        VBDotNetQuestions() : CSharpQuestions() : CPlusPlusQuestions()
+        VBDotNetQuestions() : CSharpQuestions() : CPlusPlusQuestions() : JavaScriptQuestions()
 
         BuffyTheVampireSlayerQuestions() : StarTrekQuestions()
 

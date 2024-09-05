@@ -101,6 +101,7 @@
     <Compile Include="Question Modules\Film &amp; Television\ModStarTrekQuestions.vb" />
     <Compile Include="Question Modules\IT\ModCPlusPlusQuestions.vb" />
     <Compile Include="Question Modules\IT\ModCSharpQuestions.vb" />
+    <Compile Include="Question Modules\IT\ModJavaScriptQuestions.vb" />
     <Compile Include="Question Modules\IT\ModMSAccessQuestions.vb" />
     <Compile Include="Question Modules\IT\ModMSExcelQuestions.vb" />
     <Compile Include="My Project\AssemblyInfo.vb" />
