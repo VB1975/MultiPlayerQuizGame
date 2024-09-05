@@ -20,7 +20,7 @@ Public Class FrmQuizSetup
                 CboCategories.Items.Add("VB.NET")
             Case "Film & Television"
                 CboCategories.Items.Add("Buffy The Vampire Slayer")
-                'CboCategories.Items.Add("Angel")
+                CboCategories.Items.Add("Angel")
                 CboCategories.Items.Add("Star Trek")
         End Select
 
@@ -47,6 +47,7 @@ Public Class FrmQuizSetup
             Case "Microsoft PowerPoint" : CategoryImage = My.Resources.MicrosoftPowerPoint
             Case "Buffy The Vampire Slayer" : CategoryImage = My.Resources.BuffyTheVampireSlayer
             Case "Star Trek" : CategoryImage = My.Resources.StarTrek
+            Case "Angel" : CategoryImage = My.Resources.Angel
         End Select
 
     End Sub
@@ -148,7 +149,7 @@ Public Class FrmQuizSetup
         MicrosoftAccessQuestions() : MicrosoftExcelQuestions() : MicrosoftWordQuestions() : MicrosoftPowerPointQuestions()
         VBDotNetQuestions() : CSharpQuestions() : CPlusPlusQuestions() : JavaScriptQuestions() : ASPDotNetQuestions()
 
-        BuffyTheVampireSlayerQuestions() : StarTrekQuestions()
+        BuffyTheVampireSlayerQuestions() : StarTrekQuestions() : AngelQuestions()
 
     End Sub
 
