@@ -2,7 +2,7 @@
 
 Test your knowledge with the following quizes:
 
-* **IT**
+* **IT (9)**
   - `ASP.NET`
   - `C#`
   - `C++`
@@ -13,9 +13,10 @@ Test your knowledge with the following quizes:
   - `Microsoft Word`
   - `VB.NET`
 
-* **Film & Television**
+* **Film & Television (4)**
   - `Angel`
   - `Buffy The Vampire Slayer`
+  - `Power Rangers`
   - `Star Trek`
 
 Each quiz consists of 100 multiple choice questions.
