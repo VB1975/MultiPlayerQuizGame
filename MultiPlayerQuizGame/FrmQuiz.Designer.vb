@@ -34,10 +34,12 @@ Partial Class FrmQuiz
         Me.lvwPlayerScores = New System.Windows.Forms.ListView()
         Me.ColPlayerName = CType(New System.Windows.Forms.ColumnHeader(), System.Windows.Forms.ColumnHeader)
         Me.ColScore = CType(New System.Windows.Forms.ColumnHeader(), System.Windows.Forms.ColumnHeader)
-        Me.Label1 = New System.Windows.Forms.Label()
         Me.LblCategory = New System.Windows.Forms.Label()
         Me.LblCurrentPlayer = New System.Windows.Forms.Label()
         Me.PicCategoryImage = New System.Windows.Forms.PictureBox()
+        Me.Label1 = New System.Windows.Forms.Label()
+        Me.Label2 = New System.Windows.Forms.Label()
+        Me.Label3 = New System.Windows.Forms.Label()
         CType(Me.PicCategoryImage, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
@@ -126,10 +128,10 @@ Partial Class FrmQuiz
         Me.lvwPlayerScores.FullRowSelect = True
         Me.lvwPlayerScores.HeaderStyle = System.Windows.Forms.ColumnHeaderStyle.None
         Me.lvwPlayerScores.HideSelection = False
-        Me.lvwPlayerScores.Location = New System.Drawing.Point(813, 142)
+        Me.lvwPlayerScores.Location = New System.Drawing.Point(813, 197)
         Me.lvwPlayerScores.MultiSelect = False
         Me.lvwPlayerScores.Name = "lvwPlayerScores"
-        Me.lvwPlayerScores.Size = New System.Drawing.Size(333, 576)
+        Me.lvwPlayerScores.Size = New System.Drawing.Size(333, 521)
         Me.lvwPlayerScores.TabIndex = 12
         Me.lvwPlayerScores.UseCompatibleStateImageBehavior = False
         Me.lvwPlayerScores.View = System.Windows.Forms.View.Details
@@ -143,16 +145,6 @@ Partial Class FrmQuiz
         '
         Me.ColScore.Text = "Score"
         Me.ColScore.Width = 75
-        '
-        'Label1
-        '
-        Me.Label1.AutoSize = True
-        Me.Label1.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label1.Location = New System.Drawing.Point(809, 115)
-        Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(119, 24)
-        Me.Label1.TabIndex = 13
-        Me.Label1.Text = "Scoreboard"
         '
         'LblCategory
         '
@@ -178,18 +170,52 @@ Partial Class FrmQuiz
         '
         'PicCategoryImage
         '
-        Me.PicCategoryImage.Location = New System.Drawing.Point(1026, 12)
+        Me.PicCategoryImage.Location = New System.Drawing.Point(813, 12)
         Me.PicCategoryImage.Name = "PicCategoryImage"
-        Me.PicCategoryImage.Size = New System.Drawing.Size(120, 120)
+        Me.PicCategoryImage.Size = New System.Drawing.Size(333, 120)
         Me.PicCategoryImage.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
         Me.PicCategoryImage.TabIndex = 16
         Me.PicCategoryImage.TabStop = False
+        '
+        'Label1
+        '
+        Me.Label1.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label1.Location = New System.Drawing.Point(809, 143)
+        Me.Label1.Name = "Label1"
+        Me.Label1.Size = New System.Drawing.Size(337, 24)
+        Me.Label1.TabIndex = 13
+        Me.Label1.Text = "Scoreboard"
+        Me.Label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        '
+        'Label2
+        '
+        Me.Label2.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label2.ForeColor = System.Drawing.SystemColors.ControlDarkDark
+        Me.Label2.Location = New System.Drawing.Point(808, 170)
+        Me.Label2.Name = "Label2"
+        Me.Label2.Size = New System.Drawing.Size(209, 24)
+        Me.Label2.TabIndex = 17
+        Me.Label2.Text = "Name"
+        Me.Label2.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
+        '
+        'Label3
+        '
+        Me.Label3.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label3.ForeColor = System.Drawing.SystemColors.ControlDarkDark
+        Me.Label3.Location = New System.Drawing.Point(1058, 170)
+        Me.Label3.Name = "Label3"
+        Me.Label3.Size = New System.Drawing.Size(88, 24)
+        Me.Label3.TabIndex = 18
+        Me.Label3.Text = "Score"
+        Me.Label3.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
         '
         'FrmQuiz
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(11.0!, 24.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(1158, 732)
+        Me.Controls.Add(Me.Label3)
+        Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.PicCategoryImage)
         Me.Controls.Add(Me.LblCurrentPlayer)
         Me.Controls.Add(Me.LblCategory)
@@ -225,8 +251,10 @@ Partial Class FrmQuiz
     Friend WithEvents lvwPlayerScores As ListView
     Friend WithEvents ColPlayerName As ColumnHeader
     Friend WithEvents ColScore As ColumnHeader
-    Friend WithEvents Label1 As Label
     Friend WithEvents LblCategory As Label
     Friend WithEvents LblCurrentPlayer As Label
     Friend WithEvents PicCategoryImage As PictureBox
+    Friend WithEvents Label1 As Label
+    Friend WithEvents Label2 As Label
+    Friend WithEvents Label3 As Label
 End Class

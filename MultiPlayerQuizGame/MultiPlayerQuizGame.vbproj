@@ -97,7 +97,7 @@
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="App Modules\ModGlobal.vb" />
-    <Compile Include="ModPowerRangersQuestions.vb" />
+    <Compile Include="Question Modules\Film &amp; Television\ModPowerRangersQuestions.vb" />
     <Compile Include="Question Modules\Film &amp; Television\ModAmericanPieQuestions.vb" />
     <Compile Include="Question Modules\Film &amp; Television\ModAngelQuestions.vb" />
     <Compile Include="Question Modules\Film &amp; Television\ModBuffyTheVampireSlayerQuestions.vb" />
