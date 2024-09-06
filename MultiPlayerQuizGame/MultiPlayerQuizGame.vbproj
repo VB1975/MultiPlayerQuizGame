@@ -97,7 +97,8 @@
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="App Modules\ModGlobal.vb" />
-    <Compile Include="Question Modules\Film &amp; Television\ModAgelQuestions.vb" />
+    <Compile Include="ModPowerRangersQuestions.vb" />
+    <Compile Include="Question Modules\Film &amp; Television\ModAngelQuestions.vb" />
     <Compile Include="Question Modules\Film &amp; Television\ModBuffyTheVampireSlayerQuestions.vb" />
     <Compile Include="Question Modules\Film &amp; Television\ModStarTrekQuestions.vb" />
     <Compile Include="Question Modules\IT\ModASPDotNetQuestions.vb" />
@@ -175,6 +176,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Quiz.ico" />
+    <None Include="Resources\PowerRangers.png" />
     <None Include="Resources\Angel.jpg" />
     <None Include="Resources\ASPDotNET.png" />
     <None Include="Resources\JavaScript.png" />

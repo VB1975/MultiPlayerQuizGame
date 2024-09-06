@@ -1,6 +1,6 @@
 ﻿Imports MultiPlayerQuizGame.ClsDataStructures
 
-Module ModAgelQuestions
+Module ModAngelQuestions
 
     Public Sub AngelQuestions()
 

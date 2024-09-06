@@ -7,6 +7,7 @@ Public Class FrmQuizSetup
         LblSystemMessage.Visible = False
         CboCategories.Items.Clear()
 
+        ' Populate category combo box
         Select Case CboSubCategories.SelectedItem
             Case "IT"
                 CboCategories.Items.Add("ASP.NET")
@@ -22,6 +23,7 @@ Public Class FrmQuizSetup
                 CboCategories.Items.Add("Buffy The Vampire Slayer")
                 CboCategories.Items.Add("Angel")
                 CboCategories.Items.Add("Star Trek")
+                CboCategories.Items.Add("Power Rangers")
         End Select
 
         CboCategories.DroppedDown = True
@@ -35,6 +37,7 @@ Public Class FrmQuizSetup
         LblSystemMessage.Visible = False
         TxtPlayerName.Focus()
 
+        ' Set category images
         Select Case Category
             Case "C#" : CategoryImage = My.Resources.CSharp
             Case "C++" : CategoryImage = My.Resources.CPlusPlus
@@ -48,6 +51,7 @@ Public Class FrmQuizSetup
             Case "Buffy The Vampire Slayer" : CategoryImage = My.Resources.BuffyTheVampireSlayer
             Case "Star Trek" : CategoryImage = My.Resources.StarTrek
             Case "Angel" : CategoryImage = My.Resources.Angel
+            Case "Power Rangers" : CategoryImage = My.Resources.PowerRangers
         End Select
 
     End Sub
@@ -146,10 +150,12 @@ Public Class FrmQuizSetup
 
     Private Sub InitializeQuestions()
 
+        ' IT Questions
         MicrosoftAccessQuestions() : MicrosoftExcelQuestions() : MicrosoftWordQuestions() : MicrosoftPowerPointQuestions()
         VBDotNetQuestions() : CSharpQuestions() : CPlusPlusQuestions() : JavaScriptQuestions() : ASPDotNetQuestions()
 
-        BuffyTheVampireSlayerQuestions() : StarTrekQuestions() : AngelQuestions()
+        ' Film & Television Questions
+        BuffyTheVampireSlayerQuestions() : StarTrekQuestions() : AngelQuestions() : PowerRangersQuestions()
 
     End Sub
 
