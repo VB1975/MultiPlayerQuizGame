@@ -16,6 +16,7 @@ Test your knowledge with the following quizes:
 * **Film & Television**
   - `Angel`
   - `Buffy The Vampire Slayer`
+  - `Power Rangers`
   - `Star Trek`
 
 Each quiz consists of 100 multiple choice questions.
