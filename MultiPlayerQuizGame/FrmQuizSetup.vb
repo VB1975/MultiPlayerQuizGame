@@ -15,6 +15,7 @@ Public Class FrmQuizSetup
                 CboCategories.Items.Add("C++")
                 CboCategories.Items.Add("JavaScript")
                 CboCategories.Items.Add("Microsoft Access")
+                CboCategories.Items.Add("Microsoft Access VBA")
                 CboCategories.Items.Add("Microsoft Excel")
                 CboCategories.Items.Add("Microsoft PowerPoint")
                 CboCategories.Items.Add("Microsoft Word")
@@ -49,6 +50,7 @@ Public Class FrmQuizSetup
             Case "Microsoft Excel" : CategoryImage = My.Resources.MicrosoftExcel
             Case "Microsoft Word" : CategoryImage = My.Resources.MicrosoftWord
             Case "Microsoft PowerPoint" : CategoryImage = My.Resources.MicrosoftPowerPoint
+            Case "Microsoft Access VBA" : CategoryImage = My.Resources.MicrosoftAccessVBA
             Case "Buffy The Vampire Slayer" : CategoryImage = My.Resources.BuffyTheVampireSlayer
             Case "Star Trek" : CategoryImage = My.Resources.StarTrek
             Case "Angel" : CategoryImage = My.Resources.Angel
@@ -155,6 +157,7 @@ Public Class FrmQuizSetup
         ' IT Questions
         MicrosoftAccessQuestions() : MicrosoftExcelQuestions() : MicrosoftWordQuestions() : MicrosoftPowerPointQuestions()
         VBDotNetQuestions() : CSharpQuestions() : CPlusPlusQuestions() : JavaScriptQuestions() : ASPDotNetQuestions()
+        MicrosoftAccessVBAQuestions()
 
         ' Film & Television Questions
         BuffyTheVampireSlayerQuestions() : StarTrekQuestions() : AngelQuestions() : PowerRangersQuestions() : AmericanPieQuestions()
