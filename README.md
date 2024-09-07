@@ -2,7 +2,7 @@
 
 Test your knowledge with the following quizes:
 
-* **IT (11)**
+* **IT (12)**
   -  `ASP.NET`
   -  `C#`
   -  `C++`
@@ -13,6 +13,7 @@ Test your knowledge with the following quizes:
   -  `Microsoft Excel VBA`
   -  `Microsoft PowerPoint`
   -  `Microsoft Word`
+  -  `Microsoft Word VBA`
   -  `VB.NET`
 
 * **Film & Television (5)**
