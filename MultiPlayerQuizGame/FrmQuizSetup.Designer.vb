@@ -26,7 +26,7 @@ Partial Class FrmQuizSetup
         Me.CboCategories = New System.Windows.Forms.ComboBox()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.BtnStartQuiz = New System.Windows.Forms.Button()
-        Me.Label2 = New System.Windows.Forms.Label()
+        Me.LblPlayerName = New System.Windows.Forms.Label()
         Me.TxtPlayerName = New System.Windows.Forms.TextBox()
         Me.BtnAddPlayer = New System.Windows.Forms.Button()
         Me.LstPlayers = New System.Windows.Forms.ListBox()
@@ -35,6 +35,7 @@ Partial Class FrmQuizSetup
         Me.BtnRemovePlayer = New System.Windows.Forms.Button()
         Me.CboSubCategories = New System.Windows.Forms.ComboBox()
         Me.Label4 = New System.Windows.Forms.Label()
+        Me.Label5 = New System.Windows.Forms.Label()
         Me.SuspendLayout()
         '
         'CboCategories
@@ -67,15 +68,15 @@ Partial Class FrmQuizSetup
         Me.BtnStartQuiz.Text = "Start" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Quiz"
         Me.BtnStartQuiz.UseVisualStyleBackColor = True
         '
-        'Label2
+        'LblPlayerName
         '
-        Me.Label2.AutoSize = True
-        Me.Label2.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label2.Location = New System.Drawing.Point(12, 202)
-        Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(129, 24)
-        Me.Label2.TabIndex = 5
-        Me.Label2.Text = "Player Name"
+        Me.LblPlayerName.AutoSize = True
+        Me.LblPlayerName.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.LblPlayerName.Location = New System.Drawing.Point(12, 202)
+        Me.LblPlayerName.Name = "LblPlayerName"
+        Me.LblPlayerName.Size = New System.Drawing.Size(129, 24)
+        Me.LblPlayerName.TabIndex = 5
+        Me.LblPlayerName.Text = "Player Name"
         '
         'TxtPlayerName
         '
@@ -154,12 +155,24 @@ Partial Class FrmQuizSetup
         Me.Label4.TabIndex = 12
         Me.Label4.Text = "Sub-Category"
         '
+        'Label5
+        '
+        Me.Label5.AutoSize = True
+        Me.Label5.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label5.ForeColor = System.Drawing.SystemColors.ControlDarkDark
+        Me.Label5.Location = New System.Drawing.Point(87, 316)
+        Me.Label5.Name = "Label5"
+        Me.Label5.Size = New System.Drawing.Size(78, 20)
+        Me.Label5.TabIndex = 14
+        Me.Label5.Text = "(Max . 8)"
+        '
         'FrmQuizSetup
         '
         Me.AcceptButton = Me.BtnAddPlayer
         Me.AutoScaleDimensions = New System.Drawing.SizeF(11.0!, 24.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(543, 558)
+        Me.Controls.Add(Me.Label5)
         Me.Controls.Add(Me.CboSubCategories)
         Me.Controls.Add(Me.Label4)
         Me.Controls.Add(Me.BtnRemovePlayer)
@@ -168,7 +181,7 @@ Partial Class FrmQuizSetup
         Me.Controls.Add(Me.LstPlayers)
         Me.Controls.Add(Me.BtnAddPlayer)
         Me.Controls.Add(Me.TxtPlayerName)
-        Me.Controls.Add(Me.Label2)
+        Me.Controls.Add(Me.LblPlayerName)
         Me.Controls.Add(Me.BtnStartQuiz)
         Me.Controls.Add(Me.CboCategories)
         Me.Controls.Add(Me.Label1)
@@ -188,7 +201,7 @@ Partial Class FrmQuizSetup
     Friend WithEvents CboCategories As ComboBox
     Friend WithEvents Label1 As Label
     Friend WithEvents BtnStartQuiz As Button
-    Friend WithEvents Label2 As Label
+    Friend WithEvents LblPlayerName As Label
     Friend WithEvents TxtPlayerName As TextBox
     Friend WithEvents BtnAddPlayer As Button
     Friend WithEvents LstPlayers As ListBox
@@ -197,4 +210,5 @@ Partial Class FrmQuizSetup
     Friend WithEvents BtnRemovePlayer As Button
     Friend WithEvents CboSubCategories As ComboBox
     Friend WithEvents Label4 As Label
+    Friend WithEvents Label5 As Label
 End Class

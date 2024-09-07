@@ -17,6 +17,7 @@ Public Class FrmQuizSetup
                 CboCategories.Items.Add("Microsoft Access")
                 CboCategories.Items.Add("Microsoft Access VBA")
                 CboCategories.Items.Add("Microsoft Excel")
+                CboCategories.Items.Add("Microsoft Excel VBA")
                 CboCategories.Items.Add("Microsoft PowerPoint")
                 CboCategories.Items.Add("Microsoft Word")
                 CboCategories.Items.Add("VB.NET")
@@ -51,6 +52,7 @@ Public Class FrmQuizSetup
             Case "Microsoft Word" : CategoryImage = My.Resources.MicrosoftWord
             Case "Microsoft PowerPoint" : CategoryImage = My.Resources.MicrosoftPowerPoint
             Case "Microsoft Access VBA" : CategoryImage = My.Resources.MicrosoftAccessVBA
+            Case "Microsoft Excel VBA" : CategoryImage = My.Resources.MicrosoftExcelVBA
             Case "Buffy The Vampire Slayer" : CategoryImage = My.Resources.BuffyTheVampireSlayer
             Case "Star Trek" : CategoryImage = My.Resources.StarTrek
             Case "Angel" : CategoryImage = My.Resources.Angel
@@ -60,7 +62,17 @@ Public Class FrmQuizSetup
 
     End Sub
 
-    Private Sub EnableButtons()
+    Private Sub EnableControls()
+
+        If LstPlayers.Items.Count < 8 Then
+            LblPlayerName.Enabled = True
+            TxtPlayerName.Enabled = True
+            BtnAddPlayer.Enabled = True
+        Else
+            LblPlayerName.Enabled = False
+            TxtPlayerName.Enabled = False
+            BtnAddPlayer.Enabled = False
+        End If
 
         If LstPlayers.SelectedIndex >= 0 Then
             BtnRemovePlayer.Enabled = True
@@ -138,6 +150,7 @@ Public Class FrmQuizSetup
 
         TxtPlayerName.Clear()
         TxtPlayerName.Focus()
+        EnableControls()
 
     End Sub
 
@@ -147,6 +160,7 @@ Public Class FrmQuizSetup
             If LstPlayers.SelectedIndex >= 0 Then
                 Players.RemoveAt(LstPlayers.SelectedIndex)
                 LstPlayers.Items.RemoveAt(LstPlayers.SelectedIndex)
+                EnableControls()
             End If
         End If
 
@@ -157,7 +171,7 @@ Public Class FrmQuizSetup
         ' IT Questions
         MicrosoftAccessQuestions() : MicrosoftExcelQuestions() : MicrosoftWordQuestions() : MicrosoftPowerPointQuestions()
         VBDotNetQuestions() : CSharpQuestions() : CPlusPlusQuestions() : JavaScriptQuestions() : ASPDotNetQuestions()
-        MicrosoftAccessVBAQuestions()
+        MicrosoftAccessVBAQuestions() : MicrosoftExcelVBAQuestions()
 
         ' Film & Television Questions
         BuffyTheVampireSlayerQuestions() : StarTrekQuestions() : AngelQuestions() : PowerRangersQuestions() : AmericanPieQuestions()
@@ -167,17 +181,13 @@ Public Class FrmQuizSetup
     Private Sub FrmQuizSetup_Load(sender As Object, e As EventArgs) Handles MyBase.Load
 
         InitializeQuestions()
-        EnableButtons()
+        EnableControls()
 
     End Sub
 
     Private Sub LstPlayers_SelectedIndexChanged(sender As Object, e As EventArgs) Handles LstPlayers.SelectedIndexChanged
 
-        EnableButtons()
-
-    End Sub
-
-    Private Sub FilterCategories()
+        EnableControls()
 
     End Sub
 End Class

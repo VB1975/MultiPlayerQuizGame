@@ -107,6 +107,7 @@
     <Compile Include="Question Modules\IT\ModCSharpQuestions.vb" />
     <Compile Include="Question Modules\IT\ModJavaScriptQuestions.vb" />
     <Compile Include="Question Modules\IT\ModMicrosoftAccessVBAQuestions.vb" />
+    <Compile Include="Question Modules\IT\ModMicrosoftExcelVBAQuestions.vb" />
     <Compile Include="Question Modules\IT\ModMSAccessQuestions.vb" />
     <Compile Include="Question Modules\IT\ModMSExcelQuestions.vb" />
     <Compile Include="My Project\AssemblyInfo.vb" />
@@ -178,6 +179,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Quiz.ico" />
+    <None Include="Resources\MicrosoftExcelVBA.jpg" />
     <None Include="Resources\MicrosoftAccessVBA.jpg" />
     <None Include="Resources\AmericanPie.png" />
     <None Include="Resources\PowerRangers.png" />
