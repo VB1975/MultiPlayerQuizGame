@@ -13,7 +13,7 @@ Test your knowledge with the following quizes:
   -  `Microsoft Excel VBA`
   -  `Microsoft PowerPoint`
   -  `Microsoft Word`
-  -  `Microsoft Word VBA Code`
+  -  `Microsoft Word VBA`
   -  `VB.NET`
 
 * **Film & Television (5)**
