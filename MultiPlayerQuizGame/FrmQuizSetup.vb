@@ -20,6 +20,7 @@ Public Class FrmQuizSetup
                 CboCategories.Items.Add("Microsoft Excel VBA")
                 CboCategories.Items.Add("Microsoft PowerPoint")
                 CboCategories.Items.Add("Microsoft Word")
+                CboCategories.Items.Add("Microsoft Word VBA")
                 CboCategories.Items.Add("VB.NET")
             Case "Film & Television"
                 CboCategories.Items.Add("Buffy The Vampire Slayer")
@@ -33,12 +34,7 @@ Public Class FrmQuizSetup
 
     End Sub
 
-    Private Sub CboCategories_SelectedIndexChanged(sender As Object, e As EventArgs) Handles CboCategories.SelectedIndexChanged
-
-        If CboCategories.SelectedIndex >= 0 Then Category = CboCategories.SelectedItem.ToString()
-
-        LblSystemMessage.Visible = False
-        TxtPlayerName.Focus()
+    Private Sub SetCategoryImage()
 
         ' Set category images
         Select Case Category
@@ -53,12 +49,22 @@ Public Class FrmQuizSetup
             Case "Microsoft PowerPoint" : CategoryImage = My.Resources.MicrosoftPowerPoint
             Case "Microsoft Access VBA" : CategoryImage = My.Resources.MicrosoftAccessVBA
             Case "Microsoft Excel VBA" : CategoryImage = My.Resources.MicrosoftExcelVBA
+            Case "Microsoft Word VBA" : CategoryImage = My.Resources.MicrosoftWordVBA
             Case "Buffy The Vampire Slayer" : CategoryImage = My.Resources.BuffyTheVampireSlayer
             Case "Star Trek" : CategoryImage = My.Resources.StarTrek
             Case "Angel" : CategoryImage = My.Resources.Angel
             Case "Power Rangers" : CategoryImage = My.Resources.PowerRangers
             Case "American Pie" : CategoryImage = My.Resources.AmericanPie
         End Select
+
+    End Sub
+
+    Private Sub CboCategories_SelectedIndexChanged(sender As Object, e As EventArgs) Handles CboCategories.SelectedIndexChanged
+
+        If CboCategories.SelectedIndex >= 0 Then Category = CboCategories.SelectedItem.ToString()
+
+        LblSystemMessage.Visible = False
+        TxtPlayerName.Focus()
 
     End Sub
 
@@ -122,6 +128,7 @@ Public Class FrmQuizSetup
             MessageBox.Show("No questions available for this category")
             Exit Sub
         End If
+        SetCategoryImage()
         frm.Show()
         Hide()
 
@@ -130,13 +137,6 @@ Public Class FrmQuizSetup
     Private Sub BtnAddPlayer_Click(sender As Object, e As EventArgs) Handles BtnAddPlayer.Click
 
         LblSystemMessage.Visible = False
-
-        If LstPlayers.Items.Count = 8 Then
-            LblSystemMessage.Text = "Maximum of 8 players only"
-            BtnStartQuiz.Focus()
-            LblSystemMessage.Visible = True
-            Exit Sub
-        End If
 
         If TxtPlayerName.Text = "" Then
             LblSystemMessage.Text = "Enter a Player Name"
@@ -170,8 +170,8 @@ Public Class FrmQuizSetup
 
         ' IT Questions
         MicrosoftAccessQuestions() : MicrosoftExcelQuestions() : MicrosoftWordQuestions() : MicrosoftPowerPointQuestions()
+        MicrosoftAccessVBAQuestions() : MicrosoftExcelVBAQuestions() : MicrosoftWordVBAQuestions()
         VBDotNetQuestions() : CSharpQuestions() : CPlusPlusQuestions() : JavaScriptQuestions() : ASPDotNetQuestions()
-        MicrosoftAccessVBAQuestions() : MicrosoftExcelVBAQuestions()
 
         ' Film & Television Questions
         BuffyTheVampireSlayerQuestions() : StarTrekQuestions() : AngelQuestions() : PowerRangersQuestions() : AmericanPieQuestions()
