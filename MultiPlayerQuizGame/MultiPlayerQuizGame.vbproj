@@ -108,6 +108,7 @@
     <Compile Include="Question Modules\IT\ModJavaScriptQuestions.vb" />
     <Compile Include="Question Modules\IT\ModMicrosoftAccessVBAQuestions.vb" />
     <Compile Include="Question Modules\IT\ModMicrosoftExcelVBAQuestions.vb" />
+    <Compile Include="Question Modules\IT\ModMicrosoftOutlookVBAQuestions.vb" />
     <Compile Include="Question Modules\IT\ModMicrosoftPowerPointVBAQuestions.vb" />
     <Compile Include="Question Modules\IT\ModMicrosoftWordVBAQuestions.vb" />
     <Compile Include="Question Modules\IT\ModMicrosoftAccessQuestions.vb" />
