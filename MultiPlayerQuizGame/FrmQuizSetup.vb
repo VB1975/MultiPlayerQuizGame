@@ -24,6 +24,7 @@ Public Class FrmQuizSetup
                 CboCategories.Items.Add("Microsoft PowerPoint VBA")
                 CboCategories.Items.Add("Microsoft Word")
                 CboCategories.Items.Add("Microsoft Word VBA")
+                CboCategories.Items.Add("Python")
                 CboCategories.Items.Add("VB.NET")
             Case "Film & Television"
                 CboCategories.Items.Add("Buffy The Vampire Slayer")
@@ -56,6 +57,7 @@ Public Class FrmQuizSetup
             Case "Microsoft PowerPoint VBA" : CategoryImage = My.Resources.MicrosoftPowerPointVBA
             Case "Microsoft Outlook" : CategoryImage = My.Resources.MicrosoftOutlook
             Case "Microsoft Outlook VBA" : CategoryImage = My.Resources.MicrosoftOutlookVBA
+            Case "Python" : CategoryImage = My.Resources.Python
             Case "Buffy The Vampire Slayer" : CategoryImage = My.Resources.BuffyTheVampireSlayer
             Case "Star Trek" : CategoryImage = My.Resources.StarTrek
             Case "Angel" : CategoryImage = My.Resources.Angel
@@ -177,7 +179,7 @@ Public Class FrmQuizSetup
         ' IT Questions
         MicrosoftAccessQuestions() : MicrosoftExcelQuestions() : MicrosoftWordQuestions() : MicrosoftPowerPointQuestions() : MicrosoftOutlookQuestions()
         MicrosoftAccessVBAQuestions() : MicrosoftExcelVBAQuestions() : MicrosoftWordVBAQuestions() : MicrosoftPowerPointVBAQuestions() : MicrosoftOutlookVBAQuestions()
-        VBDotNetQuestions() : CSharpQuestions() : CPlusPlusQuestions() : JavaScriptQuestions() : ASPDotNetQuestions()
+        VBDotNetQuestions() : CSharpQuestions() : CPlusPlusQuestions() : JavaScriptQuestions() : ASPDotNetQuestions() : PythonQuestions()
 
         ' Film & Television Questions
         BuffyTheVampireSlayerQuestions() : StarTrekQuestions() : AngelQuestions() : PowerRangersQuestions() : AmericanPieQuestions()

@@ -132,6 +132,7 @@
     <Compile Include="Question Modules\IT\ModMicrosoftPowerPointQuestions.vb" />
     <Compile Include="Question Modules\IT\ModMicrosoftWordQuestions.vb" />
     <Compile Include="Question Modules\IT\ModMicrosoftOutlookQuestions.vb" />
+    <Compile Include="Question Modules\IT\ModPythonQuestions.vb" />
     <Compile Include="Question Modules\IT\ModVBDotNetQuestions.vb" />
   </ItemGroup>
   <ItemGroup>
@@ -180,6 +181,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Quiz.ico" />
+    <None Include="Resources\Python.png" />
     <None Include="Resources\MicrosoftOutlook.png" />
     <None Include="Resources\MicrosoftOutlookVBA.jpg" />
     <None Include="Resources\MicrosoftPowerPointVBA.jpg" />
