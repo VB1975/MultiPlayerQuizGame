@@ -27,8 +27,6 @@ Test your knowledge with the following quizzes:
   -  `Power Rangers`
   -  `Star Trek`
 
-Each quiz consists of 100 multiple choice questions.
-
 More quizzes will be added soon.
 
 ---
