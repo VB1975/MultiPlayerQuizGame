@@ -1,5 +1,5 @@
 ﻿Imports MultiPlayerQuizGame.ClsDataStructures
-Module ModMSExcelQuestions
+Module ModMicrosoftExcelQuestions
 
     Public Sub MicrosoftExcelQuestions()
 

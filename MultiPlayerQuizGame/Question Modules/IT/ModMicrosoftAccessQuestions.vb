@@ -1,6 +1,6 @@
 ﻿Imports MultiPlayerQuizGame.ClsDataStructures
 
-Module ModMSAccessQuestions
+Module ModMicrosoftAccessQuestions
 
     Public Sub MicrosoftAccessQuestions()
 

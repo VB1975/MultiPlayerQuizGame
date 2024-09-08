@@ -18,6 +18,7 @@ Public Class FrmQuizSetup
                 CboCategories.Items.Add("Microsoft Access VBA")
                 CboCategories.Items.Add("Microsoft Excel")
                 CboCategories.Items.Add("Microsoft Excel VBA")
+                CboCategories.Items.Add("Microsoft Outlook")
                 CboCategories.Items.Add("Microsoft PowerPoint")
                 CboCategories.Items.Add("Microsoft PowerPoint VBA")
                 CboCategories.Items.Add("Microsoft Word")
@@ -52,6 +53,7 @@ Public Class FrmQuizSetup
             Case "Microsoft Excel VBA" : CategoryImage = My.Resources.MicrosoftExcelVBA
             Case "Microsoft Word VBA" : CategoryImage = My.Resources.MicrosoftWordVBA
             Case "Microsoft PowerPoint VBA" : CategoryImage = My.Resources.MicrosoftPowerPointVBA
+            Case "Microsoft Outlook" : CategoryImage = My.Resources.MicrosoftOutlook
             Case "Buffy The Vampire Slayer" : CategoryImage = My.Resources.BuffyTheVampireSlayer
             Case "Star Trek" : CategoryImage = My.Resources.StarTrek
             Case "Angel" : CategoryImage = My.Resources.Angel
@@ -171,7 +173,7 @@ Public Class FrmQuizSetup
     Private Sub InitializeQuestions()
 
         ' IT Questions
-        MicrosoftAccessQuestions() : MicrosoftExcelQuestions() : MicrosoftWordQuestions() : MicrosoftPowerPointQuestions()
+        MicrosoftAccessQuestions() : MicrosoftExcelQuestions() : MicrosoftWordQuestions() : MicrosoftPowerPointQuestions() : MicrosoftOutlookQuestions()
         MicrosoftAccessVBAQuestions() : MicrosoftExcelVBAQuestions() : MicrosoftWordVBAQuestions() : MicrosoftPowerPointVBAQuestions()
         VBDotNetQuestions() : CSharpQuestions() : CPlusPlusQuestions() : JavaScriptQuestions() : ASPDotNetQuestions()
 

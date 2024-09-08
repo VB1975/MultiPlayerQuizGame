@@ -110,8 +110,8 @@
     <Compile Include="Question Modules\IT\ModMicrosoftExcelVBAQuestions.vb" />
     <Compile Include="Question Modules\IT\ModMicrosoftPowerPointVBAQuestions.vb" />
     <Compile Include="Question Modules\IT\ModMicrosoftWordVBAQuestions.vb" />
-    <Compile Include="Question Modules\IT\ModMSAccessQuestions.vb" />
-    <Compile Include="Question Modules\IT\ModMSExcelQuestions.vb" />
+    <Compile Include="Question Modules\IT\ModMicrosoftAccessQuestions.vb" />
+    <Compile Include="Question Modules\IT\ModMicrosoftExcelQuestions.vb" />
     <Compile Include="My Project\AssemblyInfo.vb" />
     <Compile Include="My Project\Application.Designer.vb">
       <AutoGen>True</AutoGen>
@@ -128,8 +128,9 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
-    <Compile Include="Question Modules\IT\ModMSPowerPointQuestions.vb" />
-    <Compile Include="Question Modules\IT\ModMSWordQuestions.vb" />
+    <Compile Include="Question Modules\IT\ModMicrosoftPowerPointQuestions.vb" />
+    <Compile Include="Question Modules\IT\ModMicrosoftWordQuestions.vb" />
+    <Compile Include="Question Modules\IT\ModMicrosoftOutlookQuestions.vb" />
     <Compile Include="Question Modules\IT\ModVBDotNetQuestions.vb" />
   </ItemGroup>
   <ItemGroup>
@@ -178,6 +179,8 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Quiz.ico" />
+    <None Include="Resources\MicrosoftOutlook.png" />
+    <None Include="Resources\MicrosoftOutlookVBA.jpg" />
     <None Include="Resources\MicrosoftPowerPointVBA.jpg" />
     <None Include="Resources\MicrosoftPowerPoint.png" />
     <None Include="Resources\MicrosoftWordVBA.jpg" />
