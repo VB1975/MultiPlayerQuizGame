@@ -32,6 +32,7 @@ Public Class FrmQuizSetup
                 CboCategories.Items.Add("Star Trek")
                 CboCategories.Items.Add("Power Rangers")
                 CboCategories.Items.Add("American Pie")
+                CboCategories.Items.Add("ALF")
         End Select
 
         CboCategories.DroppedDown = True
@@ -63,6 +64,7 @@ Public Class FrmQuizSetup
             Case "Angel" : CategoryImage = My.Resources.Angel
             Case "Power Rangers" : CategoryImage = My.Resources.PowerRangers
             Case "American Pie" : CategoryImage = My.Resources.AmericanPie
+            Case "ALF" : CategoryImage = My.Resources.ALF
         End Select
 
     End Sub
@@ -182,7 +184,7 @@ Public Class FrmQuizSetup
         VBDotNetQuestions() : CSharpQuestions() : CPlusPlusQuestions() : JavaScriptQuestions() : ASPDotNetQuestions() : PythonQuestions()
 
         ' Film & Television Questions
-        BuffyTheVampireSlayerQuestions() : StarTrekQuestions() : AngelQuestions() : PowerRangersQuestions() : AmericanPieQuestions()
+        BuffyTheVampireSlayerQuestions() : StarTrekQuestions() : AngelQuestions() : PowerRangersQuestions() : AmericanPieQuestions() : ALFQuestions()
 
     End Sub
 
