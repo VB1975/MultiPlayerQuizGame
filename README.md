@@ -1,8 +1,8 @@
 # Multi Player Quiz Game
 
-Test your knowledge with the following quizes:
+Test your knowledge with the following quizzes:
 
-* **IT (14)**
+* **IT (15)**
   -  `ASP.NET`
   -  `C#`
   -  `C++`
@@ -12,6 +12,7 @@ Test your knowledge with the following quizes:
   -  `Microsoft Excel`
   -  `Microsoft Excel VBA`
   -  `Microsoft Outlook`
+  -  `Microsoft Outlook VBA`
   -  `Microsoft PowerPoint`
   -  `Microsoft PowerPoint VBA`
   -  `Microsoft Word`
@@ -27,7 +28,7 @@ Test your knowledge with the following quizes:
 
 Each quiz consists of 100 multiple choice questions.
 
-More quizes will be added soon.
+More quizzes will be added soon.
 
 ---
 
