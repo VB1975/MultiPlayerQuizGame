@@ -2,7 +2,7 @@
 
 Test your knowledge with the following quizes:
 
-* **IT (13)**
+* **IT (14)**
   -  `ASP.NET`
   -  `C#`
   -  `C++`
@@ -11,6 +11,7 @@ Test your knowledge with the following quizes:
   -  `Microsoft Access VBA`
   -  `Microsoft Excel`
   -  `Microsoft Excel VBA`
+  -  `Microsoft Outlook`
   -  `Microsoft PowerPoint`
   -  `Microsoft PowerPoint VBA`
   -  `Microsoft Word`
