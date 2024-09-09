@@ -20,10 +20,11 @@ Test your knowledge with the following quizzes:
   -  `Python`
   -  `VB.NET`
 
-* **Film & Television (6)**
+* **Film & Television (7)**
   -  `ALF`
   -  `American Pie`
   -  `Angel`
+  -  `Beauty And The Beast`
   -  `Buffy The Vampire Slayer`
   -  `Power Rangers`
   -  `Star Trek`
