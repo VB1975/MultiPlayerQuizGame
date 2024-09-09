@@ -98,6 +98,7 @@
     </Compile>
     <Compile Include="App Modules\ModGlobal.vb" />
     <Compile Include="Question Modules\Film &amp; Television\ModALFQuestions.vb" />
+    <Compile Include="Question Modules\Film &amp; Television\ModBeautyAndTheBeastQuestions.vb" />
     <Compile Include="Question Modules\Film &amp; Television\ModPowerRangersQuestions.vb" />
     <Compile Include="Question Modules\Film &amp; Television\ModAmericanPieQuestions.vb" />
     <Compile Include="Question Modules\Film &amp; Television\ModAngelQuestions.vb" />
@@ -182,6 +183,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Quiz.ico" />
+    <None Include="Resources\BeautyAndTheBeast.jpg" />
     <None Include="Resources\ALF.jpg" />
     <None Include="Resources\Python.png" />
     <None Include="Resources\MicrosoftOutlook.png" />

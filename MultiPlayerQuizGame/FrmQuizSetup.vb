@@ -33,6 +33,7 @@ Public Class FrmQuizSetup
                 CboCategories.Items.Add("Power Rangers")
                 CboCategories.Items.Add("American Pie")
                 CboCategories.Items.Add("ALF")
+                CboCategories.Items.Add("Beauty And The Beast")
         End Select
 
         CboCategories.DroppedDown = True
@@ -65,6 +66,7 @@ Public Class FrmQuizSetup
             Case "Power Rangers" : CategoryImage = My.Resources.PowerRangers
             Case "American Pie" : CategoryImage = My.Resources.AmericanPie
             Case "ALF" : CategoryImage = My.Resources.ALF
+            Case "Beauty And The Beast" : CategoryImage = My.Resources.BeautyAndTheBeast
         End Select
 
     End Sub
@@ -185,6 +187,7 @@ Public Class FrmQuizSetup
 
         ' Film & Television Questions
         BuffyTheVampireSlayerQuestions() : StarTrekQuestions() : AngelQuestions() : PowerRangersQuestions() : AmericanPieQuestions() : ALFQuestions()
+        BeautyAndTheBeastQuestions()
 
     End Sub
 
