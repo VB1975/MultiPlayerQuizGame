@@ -20,7 +20,8 @@ Test your knowledge with the following quizzes:
   -  `Python`
   -  `VB.NET`
 
-* **Film & Television (5)**
+* **Film & Television (6)**
+  -  `ALF`
   -  `American Pie`
   -  `Angel`
   -  `Buffy The Vampire Slayer`
