@@ -119,7 +119,16 @@ Public Class FrmQuiz
             "Hold a plank position for 30 seconds", "Talk in a whisper for the next 5 minutes",
             "Balance a book on your head and walk in a straight line", "Tell the group something embarrassing from your past",
             "Let someone style your hair (without cutting)", "Do your best animal impression for 30 seconds",
-            "Compliment everyone in the group", "Take a selfie with a silly face and send it to a friend"}
+            "Compliment everyone in the group", "Take a selfie with a silly face and send it to a friend", "Sing a song chosen by the group",
+            "Do 10 jumping jacks", "Talk in an accent for the next 5 minutes", "Share an embarrassing story", "Dance without music for 1 minute",
+            "Wear a silly hat for the rest of the game", "Let another player draw on your face (with something washable)",
+            "Do a dramatic reading of a random sentence from a book", "Post something funny on social media",
+            "Speak only in questions for the next 2 rounds", "Do an impression of a celebrity chosen by the group",
+            "Swap seats with another player for the next 3 questions", "Say the alphabet backward", "Hold a funny pose for 1 minute",
+            "Pretend to be a statue for 2 minutes", "Do a silly walk around the room", "Say a tongue twister 5 times quickly",
+            "Balance a book on your head for 1 minute", "Compliment every player for the next round", "Do an exaggerated slow-motion action scene",
+            "Make a paper airplane and see how far it flies", "Act out a famous movie scene without speaking", "Hold your breath for 20 seconds",
+            "Recite a nursery rhyme in the most dramatic way possible", "Write your name using your non-dominant hand"}
 
         Dim RandomForfeit = Forfeits(New Random().Next(Forfeits.Count))
         FrmForfeit.Activate()
