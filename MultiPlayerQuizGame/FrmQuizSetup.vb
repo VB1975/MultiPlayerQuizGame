@@ -35,6 +35,7 @@ Public Class FrmQuizSetup
                 CboCategories.Items.Add("ALF")
                 CboCategories.Items.Add("Beauty And The Beast")
                 CboCategories.Items.Add("Dark Angel")
+                CboCategories.Items.Add("The Incredible Hulk")
         End Select
 
         CboCategories.DroppedDown = True
@@ -69,6 +70,7 @@ Public Class FrmQuizSetup
             Case "ALF" : CategoryImage = My.Resources.ALF
             Case "Beauty And The Beast" : CategoryImage = My.Resources.BeautyAndTheBeast
             Case "Dark Angel" : CategoryImage = My.Resources.DarkAngel
+            Case "The Incredible Hulk" : CategoryImage = My.Resources.TheIncredibleHulk
         End Select
 
     End Sub
@@ -189,7 +191,7 @@ Public Class FrmQuizSetup
 
         ' Film & Television Questions
         BuffyTheVampireSlayerQuestions() : StarTrekQuestions() : AngelQuestions() : PowerRangersQuestions() : AmericanPieQuestions() : ALFQuestions()
-        BeautyAndTheBeastQuestions() : DarkAngelQuestions()
+        BeautyAndTheBeastQuestions() : DarkAngelQuestions() : TheIncredibleHulkQuestions()
 
     End Sub
 

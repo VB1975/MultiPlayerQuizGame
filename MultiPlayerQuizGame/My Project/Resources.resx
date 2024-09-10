@@ -187,6 +187,9 @@
   <data name="StarTrek" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\StarTrek.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="TheIncredibleHulk" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\TheIncredibleHulk.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="VBDotNet" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\VBDotNet.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>

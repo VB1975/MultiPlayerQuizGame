@@ -105,6 +105,7 @@
     <Compile Include="Question Modules\Film &amp; Television\ModAngelQuestions.vb" />
     <Compile Include="Question Modules\Film &amp; Television\ModBuffyTheVampireSlayerQuestions.vb" />
     <Compile Include="Question Modules\Film &amp; Television\ModStarTrekQuestions.vb" />
+    <Compile Include="Question Modules\Film &amp; Television\ModTheIncredibleHulkQuestions.vb" />
     <Compile Include="Question Modules\IT\ModASPDotNetQuestions.vb" />
     <Compile Include="Question Modules\IT\ModCPlusPlusQuestions.vb" />
     <Compile Include="Question Modules\IT\ModCSharpQuestions.vb" />
@@ -184,6 +185,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Quiz.ico" />
+    <None Include="Resources\TheIncredibleHulk.jpg" />
     <None Include="Resources\DarkAngel.jpg" />
     <None Include="Resources\BeautyAndTheBeast.jpg" />
     <None Include="Resources\ALF.jpg" />
