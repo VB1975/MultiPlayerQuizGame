@@ -20,7 +20,7 @@ Test your knowledge with the following quizzes:
   -  `Python`
   -  `VB.NET`
 
-* **Film & Television (8)**
+* **Film & Television (9)**
   -  `ALF`
   -  `American Pie`
   -  `Angel`
@@ -29,6 +29,7 @@ Test your knowledge with the following quizzes:
   -  `Dark Angel`
   -  `Power Rangers`
   -  `Star Trek`
+  -  `The Incredible Hulk`
 
 More quizzes will be added soon.
 
